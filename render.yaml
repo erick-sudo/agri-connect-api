@@ -2,7 +2,7 @@ databases:
   - name: agri_connect_database
     plan: free
     databaseName: agri_connect_db
-    user: agri-connect
+    user: agri_connect_user
 
 services:
   - type: web
