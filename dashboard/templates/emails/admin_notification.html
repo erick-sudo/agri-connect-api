@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Notification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .email-header {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        .email-header h1 {
+            color: #333333;
+        }
+        .email-body {
+            padding: 20px 0;
+            color: #333333;
+        }
+        .email-body p {
+            margin: 0 0 10px;
+        }
+        .email-footer {
+            text-align: center;
+            padding-top: 20px;
+            color: #777777;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="email-header">
+            <h1>Admin Notification: {{ event_type }}</h1>
+        </div>
+        <div class="email-body">
+            <p><strong>Recipient:</strong> {{ recipient }}</p>
+            <p><strong>Subject:</strong> {{ subject }}</p>
+            <p><strong>Message:</strong></p>
+            <blockquote>
+                <p>{{ message }}</p>
+            </blockquote>
+            <p><strong>Event Time:</strong> {{ event_time }}</p>
+        </div>
+        <div class="email-footer">
+            <p>This is an automated notification. Please do not reply to this email.</p>
+        </div>
+    </div>
+</body>
+</html>

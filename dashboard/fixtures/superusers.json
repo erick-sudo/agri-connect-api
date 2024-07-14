@@ -1,0 +1,22 @@
+[
+{
+ "model": "dashboard.customuser",
+ "pk": "3eeb6710-2b52-44cf-8ab0-08f0b6a1b640",
+ "fields": {
+  "password": "pbkdf2_sha256$600000$lovwAzhoiiINLPKl2GnN1h$WH2OvdYVrFbnXpvowI5gplVEhwpbuYfC+gvw/haMWQI=",
+  "last_login": null,
+  "first_name": "FAdmin",
+  "last_name": "LAdmin",
+  "profile_picture": "user.png",
+  "email": "admin@admin.com",
+  "phone": "0700000000",
+  "created_on": "2024-07-14T17:57:24.908Z",
+  "updated_on": "2024-07-14T17:57:24.916Z",
+  "is_active": true,
+  "is_staff": true,
+  "is_superuser": true,
+  "groups": [],
+  "user_permissions": []
+ }
+}
+]

@@ -1,0 +1,13 @@
+Django==5.0.4
+pillow
+whitenoise
+psycopg2-binary
+django-cors-headers
+djangorestframework
+django-rest-knox
+drf-yasg
+pytest-django
+gunicorn
+requests
+requests-mock
+freezegun

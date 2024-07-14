@@ -1,0 +1,12 @@
+<!-- templates/payment_confirmation_email.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Confirmation</title>
+</head>
+<body>
+    <p>Dear {{ payment.first_name }},</p>
+    <p>Thank you for your payment. Your invoice number is {{ payment.invoice_number }}.</p>
+    <p>Best regards,<br>Your Company</p>
+</body>
+</html>

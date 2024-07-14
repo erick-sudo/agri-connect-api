@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Our Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .email-header {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        .email-header h1 {
+            color: #333333;
+        }
+        .email-body {
+            padding: 20px 0;
+            color: #333333;
+        }
+        .email-body p {
+            margin: 0 0 10px;
+        }
+        .email-body a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .email-footer {
+            text-align: center;
+            padding-top: 20px;
+            color: #777777;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="email-header">
+            <h1>Welcome to AgriConnectKE</h1>
+        </div>
+        <div class="email-body">
+            <h3>Hello {{ first_name }},</h3>
+            <blockquote>
+                <p>Welcome to our platform! We're excited to have you on board.</p>
+                <p>Your account has been successfully created.</p>
+                <p>You can now <a href="{{ login_url }}">log in</a> and start using our services.</p>
+                <p>If you have any questions or need assistance, please don't hesitate to contact our support team at <a href="mailto:{{ support_email }}">{{ support_email }}</a>.</p>
+            </blockquote>
+        </div>
+        <div class="email-footer">
+            <p><strong>Best regards,</strong><br>
+            The AgriConnectKE Team</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+django==3.2.25
+selenium
+pillow
+whitenoise
+psycopg2-binary
+pylint
+djangorestframework
+urllib3==1.26.15
