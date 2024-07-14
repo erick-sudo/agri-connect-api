@@ -1,17 +1,17 @@
 [
 {
  "model": "dashboard.customuser",
- "pk": "3eeb6710-2b52-44cf-8ab0-08f0b6a1b640",
+ "pk": "1a76b4ad-b3d5-40a9-bb1b-1b0adef05771",
  "fields": {
-  "password": "pbkdf2_sha256$600000$lovwAzhoiiINLPKl2GnN1h$WH2OvdYVrFbnXpvowI5gplVEhwpbuYfC+gvw/haMWQI=",
+  "password": "pbkdf2_sha256$720000$pC4jYUkn0G7dI7FOYM0EKG$5EiEpkBLJmgBrgVzo25yBOwtAlzMscriRrLZmt+TdpY=",
   "last_login": null,
   "first_name": "FAdmin",
   "last_name": "LAdmin",
   "profile_picture": "user.png",
-  "email": "admin@admin.com",
+  "email": "admin@app.com",
   "phone": "0700000000",
-  "created_on": "2024-07-14T17:57:24.908Z",
-  "updated_on": "2024-07-14T17:57:24.916Z",
+  "created_on": "2024-07-14T22:03:35.349Z",
+  "updated_on": "2024-07-14T22:03:35.361Z",
   "is_active": true,
   "is_staff": true,
   "is_superuser": true,
